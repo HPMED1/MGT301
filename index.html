@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrepreneurship Interactive Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .quiz-container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .quiz-title {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .chapter-title {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .question-type-title {
+            color: #007bff;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .question-block {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .question-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
+        .options input[type="radio"] {
+            margin-right: 8px;
+        }
+        .show-answer-btn {
+            padding: 8px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .show-answer-btn:hover {
+            background-color: #218838;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 class="quiz-title">Entrepreneurship Interactive Quiz</h1>
+        
+        <h2 class="chapter-title">Chapter 4: The Business Plan: Road Map to Success</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1) A ______ is a company's plan to generate revenue and make a profit from operations.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_1" value="A"> A) Business plan</label>
+                <label><input type="radio" name="q4_1" value="B"> B) Feasibility plan</label>
+                <label><input type="radio" name="q4_1" value="C"> C) Business model</label>
+                <label><input type="radio" name="q4_1" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">2) The four factors that form competitive advantage are ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_2" value="A"> A) Product, price, promotion, and place</label>
+                <label><input type="radio" name="q4_2" value="B"> B) Product, packaging, promotion, and price</label>
+                <label><input type="radio" name="q4_2" value="C"> C) Product, place, politics, and price</label>
+                <label><input type="radio" name="q4_2" value="D"> D) Product, place, politics, and persistence</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">3) Making the beliefs, values, and behavioral norms explicit and intentional builds the ______ of an organization.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_3" value="A"> A) Culture</label>
+                <label><input type="radio" name="q4_3" value="B"> B) Mission</label>
+                <label><input type="radio" name="q4_3" value="C"> C) Vision</label>
+                <label><input type="radio" name="q4_3" value="D"> D) Goals</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">4) A factor to consider when selecting a physical location is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_4" value="A"> A) Work force availability</label>
+                <label><input type="radio" name="q4_4" value="B"> B) Wage rates</label>
+                <label><input type="radio" name="q4_4" value="C"> C) Nearby university</label>
+                <label><input type="radio" name="q4_4" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">5) A(n) ______ is a document that thoroughly explains a business idea and how it will be carried out.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_5" value="A"> A) Business plan</label>
+                <label><input type="radio" name="q4_5" value="B"> B) Analysis</label>
+                <label><input type="radio" name="q4_5" value="C"> C) Resume</label>
+                <label><input type="radio" name="q4_5" value="D"> D) Marketing plan</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">6) Indicating that you are assuming personal risk involves showing that ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_6" value="A"> A) You are emotionally invested in the business.</label>
+                <label><input type="radio" name="q4_6" value="B"> B) You are intellectually invested in the business.</label>
+                <label><input type="radio" name="q4_6" value="C"> C) You are financially invested in the business.</label>
+                <label><input type="radio" name="q4_6" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">7) Telemarketing is a form of ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_7" value="A"> A) Advertising</label>
+                <label><input type="radio" name="q4_7" value="B"> B) Publicity</label>
+                <label><input type="radio" name="q4_7" value="C"> C) Direct marketing</label>
+                <label><input type="radio" name="q4_7" value="D"> D) Public relations</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">8) Advertising is ______ promotion through media outlets.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_8" value="A"> A) Paid</label>
+                <label><input type="radio" name="q4_8" value="B"> B) Discounted</label>
+                <label><input type="radio" name="q4_8" value="C"> C) Free</label>
+                <label><input type="radio" name="q4_8" value="D"> D) Newsworthy</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">9) If a company does not have ______ it will fail.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_9" value="A"> A) Cash</label>
+                <label><input type="radio" name="q4_9" value="B"> B) A business plan</label>
+                <label><input type="radio" name="q4_9" value="C"> C) Advisors</label>
+                <label><input type="radio" name="q4_9" value="D"> D) Advertising</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">17) The ______ section of the business plan should be written last.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_17" value="A"> A) Executive Summary</label>
+                <label><input type="radio" name="q4_17" value="B"> B) Mission, Vision, Culture</label>
+                <label><input type="radio" name="q4_17" value="C"> C) Cover Page</label>
+                <label><input type="radio" name="q4_17" value="D"> D) Financial Statements</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">18) Cash flow _____ be negative before debt and equity infusions and _____ be negative after them.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_18" value="A"> A) Cannot, can</label>
+                <label><input type="radio" name="q4_18" value="B"> B) Cannot, cannot</label>
+                <label><input type="radio" name="q4_18" value="C"> C) Can, cannot</label>
+                <label><input type="radio" name="q4_18" value="D"> D) Can, can</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">19) A business plan can help a company ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_19" value="A"> A) Operate more effectively</label>
+                <label><input type="radio" name="q4_19" value="B"> B) Raise capital</label>
+                <label><input type="radio" name="q4_19" value="C"> C) Define its core mission</label>
+                <label><input type="radio" name="q4_19" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">20) Writing a business plan can ensure that you ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_20" value="A"> A) Achieve your expense projection</label>
+                <label><input type="radio" name="q4_20" value="B"> B) Make a profit</label>
+                <label><input type="radio" name="q4_20" value="C"> C) Figure out how to make your business work</label>
+                <label><input type="radio" name="q4_20" value="D"> D) Meet your target revenue goals</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">21) The Executive Summary contains the ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_21" value="A"> A) Management strengths</label>
+                <label><input type="radio" name="q4_21" value="B"> B) Funding request</label>
+                <label><input type="radio" name="q4_21" value="C"> C) Story of the business</label>
+                <label><input type="radio" name="q4_21" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">22) Target market segments are defined by common factors such as ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_22" value="A"> A) Psychographics</label>
+                <label><input type="radio" name="q4_22" value="B"> B) Demographics</label>
+                <label><input type="radio" name="q4_22" value="C"> C) Geography</label>
+                <label><input type="radio" name="q4_22" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">23) Price should reflect the organization's ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_23" value="A"> A) Strategy</label>
+                <label><input type="radio" name="q4_23" value="B"> B) Policy</label>
+                <label><input type="radio" name="q4_23" value="C"> C) Vision</label>
+                <label><input type="radio" name="q4_23" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">24) A(n) ______ is a 15- to 30-second summary of your business.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_24" value="A"> A) Elevator pitch</label>
+                <label><input type="radio" name="q4_24" value="B"> B) Story</label>
+                <label><input type="radio" name="q4_24" value="C"> C) Advertisement</label>
+                <label><input type="radio" name="q4_24" value="D"> D) Sales pitch</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">25) Your business plan projections should be ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_25" value="A"> A) Incredible and impossible to reach</label>
+                <label><input type="radio" name="q4_25" value="B"> B) Optimistic and a bit of a stretch</label>
+                <label><input type="radio" name="q4_25" value="C"> C) Practical and easy to reach</label>
+                <label><input type="radio" name="q4_25" value="D"> D) Realistic and attainable</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">26) It is best for ______ to write a new venture's business plan.</p>
+            <div class="options">
+                <label><input type="radio" name="q4_26" value="A"> A) A consultant</label>
+                <label><input type="radio" name="q4_26" value="B"> B) The marketing manager</label>
+                <label><input type="radio" name="q4_26" value="C"> C) The entire team</label>
+                <label><input type="radio" name="q4_26" value="D"> D) The Chief Financial Officer</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <h2 class="chapter-title">Chapter 5: Creating Business from Opportunity</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1) Business leaders create wealth by ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_1" value="A"> A) Hiring employees in order to sell more units and generate more profit</label>
+                <label><input type="radio" name="q5_1" value="B"> B) Reducing their gross margins</label>
+                <label><input type="radio" name="q5_1" value="C"> C) Charging high prices to customers</label>
+                <label><input type="radio" name="q5_1" value="D"> D) Avoiding the cost of hiring employees</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">2) Your ______ is a concise communication of your strategy including your business definition and your competitive advantage.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_2" value="A"> A) Mission statement</label>
+                <label><input type="radio" name="q5_2" value="B"> B) Target market analysis</label>
+                <label><input type="radio" name="q5_2" value="C"> C) Values statement</label>
+                <label><input type="radio" name="q5_2" value="D"> D) Business plan</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">3) A(n) ______ is a group of people or organizations that may be interested in buying a given product or service, has the resources to purchase it, and is permitted by law and regulation to do so.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_3" value="A"> A) Target market</label>
+                <label><input type="radio" name="q5_3" value="B"> B) Market</label>
+                <label><input type="radio" name="q5_3" value="C"> C) Organization</label>
+                <label><input type="radio" name="q5_3" value="D"> D) Industry</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">4) A retail business buys from ______ and sells to ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_4" value="A"> A) Wholesalers, consumers</label>
+                <label><input type="radio" name="q5_4" value="B"> B) Wholesalers, manufacturers</label>
+                <label><input type="radio" name="q5_4" value="C"> C) Manufacturers, consumers</label>
+                <label><input type="radio" name="q5_4" value="D"> D) Traders, consumers</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">5) ______ is/are the core values of an organization in action.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_5" value="A"> A) Culture</label>
+                <label><input type="radio" name="q5_5" value="B"> B) Mission</label>
+                <label><input type="radio" name="q5_5" value="C"> C) Vision</label>
+                <label><input type="radio" name="q5_5" value="D"> D) Goals</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">6) To help determine whether your business will be profitable, calculate your ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_6" value="A"> A) Economics of one unit</label>
+                <label><input type="radio" name="q5_6" value="B"> B) Finances of one unit</label>
+                <label><input type="radio" name="q5_6" value="C"> C) Cost of goods sold</label>
+                <label><input type="radio" name="q5_6" value="D"> D) Rate of goods sold</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">7) For your business to be successful you will need a strategy for beating the competition, that is, a ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_7" value="A"> A) Competitive advantage</label>
+                <label><input type="radio" name="q5_7" value="B"> B) Market analysis</label>
+                <label><input type="radio" name="q5_7" value="C"> C) Target market</label>
+                <label><input type="radio" name="q5_7" value="D"> D) Customer analysis</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">8) Business definition + Competitive advantage is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_8" value="A"> A) Competitive strategy</label>
+                <label><input type="radio" name="q5_8" value="B"> B) Competitive plan</label>
+                <label><input type="radio" name="q5_8" value="C"> C) Competitive approach</label>
+                <label><input type="radio" name="q5_8" value="D"> D) Competitive tactics</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">9) Which of the following items is not a competitive advantage?</p>
+            <div class="options">
+                <label><input type="radio" name="q5_9" value="A"> A) Consistently providing better customer service than the competition</label>
+                <label><input type="radio" name="q5_9" value="B"> B) Using a new patented manufacturing process that reduces manufacturing costs by 25%</label>
+                <label><input type="radio" name="q5_9" value="C"> C) Finding a better supplier at a lower cost</label>
+                <label><input type="radio" name="q5_9" value="D"> D) Offering free samples during a two-week promotion</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">10) A typical unit of sale for a wholesaler would be ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_10" value="A"> A) One hour of work</label>
+                <label><input type="radio" name="q5_10" value="B"> B) A block of time devoted to a task</label>
+                <label><input type="radio" name="q5_10" value="C"> C) One item</label>
+                <label><input type="radio" name="q5_10" value="D"> D) One dozen</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">11) Average gross profit per customer is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_11" value="A"> A) Average sale per customer minus average cost of sale per customer</label>
+                <label><input type="radio" name="q5_11" value="B"> B) Average cost of tangible product minus average cost of intangible product</label>
+                <label><input type="radio" name="q5_11" value="C"> C) Average sale per consumer plus average sale per wholesaler</label>
+                <label><input type="radio" name="q5_11" value="D"> D) Average cost of sale minus average sale per customer</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">12) The foreign exchange rate is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_12" value="A"> A) The relative value between one currency and another</label>
+                <label><input type="radio" name="q5_12" value="B"> B) The relative value between the dollar and foreign currencies</label>
+                <label><input type="radio" name="q5_12" value="C"> C) The rate at which countries do business</label>
+                <label><input type="radio" name="q5_12" value="D"> D) The value of products within a country</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">13) Total cost of goods sold per unit consists of ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_13" value="A"> A) Materials cost per unit plus labor cost per unit</label>
+                <label><input type="radio" name="q5_13" value="B"> B) Volume cost plus labor cost</label>
+                <label><input type="radio" name="q5_13" value="C"> C) Selling price per unit plus gross profit per unit</label>
+                <label><input type="radio" name="q5_13" value="D"> D) Labor cost minus volume discount per unit</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">14) The cost of producing one additional unit of a product is called ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_14" value="A"> A) Cost of goods sold</label>
+                <label><input type="radio" name="q5_14" value="B"> B) Cost of materials</label>
+                <label><input type="radio" name="q5_14" value="C"> C) Cost of services sold</label>
+                <label><input type="radio" name="q5_14" value="D"> D) Cost of utilities</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">15) Total gross profit = ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_15" value="A"> A) Total cost of goods sold - Total revenue</label>
+                <label><input type="radio" name="q5_15" value="B"> B) Total profit - Total revenue</label>
+                <label><input type="radio" name="q5_15" value="C"> C) Total revenue - Total cost of goods sold</label>
+                <label><input type="radio" name="q5_15" value="D"> D) Total revenue - Total profit</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">16) A ______ is a group of people who would be interested in buying a given product or service.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_16" value="A"> A) Market</label>
+                <label><input type="radio" name="q5_16" value="B"> B) Target</label>
+                <label><input type="radio" name="q5_16" value="C"> C) Customer</label>
+                <label><input type="radio" name="q5_16" value="D"> D) Shopper</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">17) To succeed, a business must satisfy a consumer need ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_17" value="A"> A) At a price consumers can afford</label>
+                <label><input type="radio" name="q5_17" value="B"> B) At a price that covers the business's costs</label>
+                <label><input type="radio" name="q5_17" value="C"> C) At a price that provides the business with a profit</label>
+                <label><input type="radio" name="q5_17" value="D"> D) At a price that covers variable costs</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">18) What type of business deals in tangible products?</p>
+            <div class="options">
+                <label><input type="radio" name="q5_18" value="A"> A) Service</label>
+                <label><input type="radio" name="q5_18" value="B"> B) Manufacturing</label>
+                <label><input type="radio" name="q5_18" value="C"> C) Agricultural production</label>
+                <label><input type="radio" name="q5_18" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">19) A competitive advantage can be based on any of six factors. Which of the following is not one of the six?</p>
+            <div class="options">
+                <label><input type="radio" name="q5_19" value="A"> A) Selection</label>
+                <label><input type="radio" name="q5_19" value="B"> B) Opportunity</label>
+                <label><input type="radio" name="q5_19" value="C"> C) Quality</label>
+                <label><input type="radio" name="q5_19" value="D"> D) Cost</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">20) In analyzing your competitive advantage, you will need to ask three questions. Among these is/are ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_20" value="A"> A) Competitive offers: How do you compare with competitors on a feature-by-feature basis?</label>
+                <label><input type="radio" name="q5_20" value="B"> B) Cost structure: Are you at a cost advantage or disadvantage?</label>
+                <label><input type="radio" name="q5_20" value="C"> C) What is your unique selling proposition: What do you have that competitors cannot or will not match?</label>
+                <label><input type="radio" name="q5_20" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">21) When you start your business, your ______ will guide the business operations and decisions.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_21" value="A"> A) Core beliefs</label>
+                <label><input type="radio" name="q5_21" value="B"> B) Track record</label>
+                <label><input type="radio" name="q5_21" value="C"> C) Competitive offers</label>
+                <label><input type="radio" name="q5_21" value="D"> D) Guiding light</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">22) If the Foreign Exchange rate between the Japanese yen and the euro is 190:1, how many yen will equal 10 euros?</p>
+            <div class="options">
+                <label><input type="radio" name="q5_22" value="A"> A) 1900</label>
+                <label><input type="radio" name="q5_22" value="B"> B) 1800</label>
+                <label><input type="radio" name="q5_22" value="C"> C) 2000</label>
+                <label><input type="radio" name="q5_22" value="D"> D) 300</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">23) The business definition has three elements: ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_23" value="A"> A) Offer, target market, and production/delivery capability</label>
+                <label><input type="radio" name="q5_23" value="B"> B) Offer, acceptance, and consideration</label>
+                <label><input type="radio" name="q5_23" value="C"> C) Business definition, target market, and market analysis</label>
+                <label><input type="radio" name="q5_23" value="D"> D) Target market, potential customers, and production capability</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">24) Giovanni's entrepreneurial venture produces a tangible product. This is an example of a ______ venture.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_24" value="A"> A) Service</label>
+                <label><input type="radio" name="q5_24" value="B"> B) Wholesale</label>
+                <label><input type="radio" name="q5_24" value="C"> C) Manufacturing</label>
+                <label><input type="radio" name="q5_24" value="D"> D) None of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">25) What type of business buys in bulk from a manufacturer and sells smaller quantities to a retailer?</p>
+            <div class="options">
+                <label><input type="radio" name="q5_25" value="A"> A) Wholesaler</label>
+                <label><input type="radio" name="q5_25" value="B"> B) Attorney</label>
+                <label><input type="radio" name="q5_25" value="C"> C) Consumer driven</label>
+                <label><input type="radio" name="q5_25" value="D"> D) Service firm</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">26) Once you know your ______ you can calculate gross profit.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_26" value="A"> A) Cost of goods sold</label>
+                <label><input type="radio" name="q5_26" value="B"> B) Unit of sale</label>
+                <label><input type="radio" name="q5_26" value="C"> C) Gross cost</label>
+                <label><input type="radio" name="q5_26" value="D"> D) Profit</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">27) For a business to be successful, a competitive advantage must be ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q5_27" value="A"> A) Sustainable</label>
+                <label><input type="radio" name="q5_27" value="B"> B) Profitable</label>
+                <label><input type="radio" name="q5_27" value="C"> C) Legal</label>
+                <label><input type="radio" name="q5_27" value="D"> D) Expensive</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <h2 class="chapter-title">Chapter 6: Exploring Your Market</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1) An entrepreneur's market is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_1" value="A"> A) The building where his or her business is located</label>
+                <label><input type="radio" name="q6_1" value="B"> B) A three-square-block area surrounding his or her location</label>
+                <label><input type="radio" name="q6_1" value="C"> C) His or her business's promotional activities</label>
+                <label><input type="radio" name="q6_1" value="D"> D) The group of people who are current and possible future customers</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">2) What is a focus group?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_2" value="A"> A) A method of market research that focuses on how the industry is performing</label>
+                <label><input type="radio" name="q6_2" value="B"> B) A method of market research that involves collecting statistics about a group of people who might use a product</label>
+                <label><input type="radio" name="q6_2" value="C"> C) A method of market research that involves bringing together some people who might use a product and having a researcher question them about it</label>
+                <label><input type="radio" name="q6_2" value="D"> D) A method of market research that focuses on competitor strengths</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">3) In doing secondary research, there are several choices to help you. Among these are ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_3" value="A"> A) Magazine articles</label>
+                <label><input type="radio" name="q6_3" value="B"> B) Internet research</label>
+                <label><input type="radio" name="q6_3" value="C"> C) Business library</label>
+                <label><input type="radio" name="q6_3" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">4) The first phase of the product life cycle is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_4" value="A"> A) Growth</label>
+                <label><input type="radio" name="q6_4" value="B"> B) Maturity</label>
+                <label><input type="radio" name="q6_4" value="C"> C) Introduction</label>
+                <label><input type="radio" name="q6_4" value="D"> D) Decline</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">5) The marketing term that describes owning a perception in the minds of consumers is called ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_5" value="A"> A) Mind share</label>
+                <label><input type="radio" name="q6_5" value="B"> B) Consumer perception</label>
+                <label><input type="radio" name="q6_5" value="C"> C) Consumer influence</label>
+                <label><input type="radio" name="q6_5" value="D"> D) Market share</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">6) ______ ask(s) people directly through interviews or questionnaires about their perceptions of a product or service.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_6" value="A"> A) Surveys and focus groups</label>
+                <label><input type="radio" name="q6_6" value="B"> B) Secondary research methods</label>
+                <label><input type="radio" name="q6_6" value="C"> C) Industry research</label>
+                <label><input type="radio" name="q6_6" value="D"> D) General research</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">7) The set of four stages that a product or market goes through from its beginning until its end is called the ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_7" value="A"> A) Product life cycle</label>
+                <label><input type="radio" name="q6_7" value="B"> B) Marketing cycle</label>
+                <label><input type="radio" name="q6_7" value="C"> C) Promotion cycle</label>
+                <label><input type="radio" name="q6_7" value="D"> D) Merchandise life cycle</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">8) There is a subtle difference between the ______ and the ______ of a product. One is a fact while the other is a perception.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_8" value="A"> A) Features, benefits</label>
+                <label><input type="radio" name="q6_8" value="B"> B) Revenue, costs</label>
+                <label><input type="radio" name="q6_8" value="C"> C) Sales, marketing</label>
+                <label><input type="radio" name="q6_8" value="D"> D) Marketing, penetration</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">9) Dividing the market by purchase behaviors that have been observed is ______ segmentation.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_9" value="A"> A) Behavioral</label>
+                <label><input type="radio" name="q6_9" value="B"> B) Psychographic</label>
+                <label><input type="radio" name="q6_9" value="C"> C) Demographic</label>
+                <label><input type="radio" name="q6_9" value="D"> D) Geographic</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">10) When has a market become saturated?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_10" value="A"> A) When there has been so much advertising and publicity for the product</label>
+                <label><input type="radio" name="q6_10" value="B"> B) When competitors have entered the market and forced the price of the product so low that the businesses selling it can no longer earn a profit</label>
+                <label><input type="radio" name="q6_10" value="C"> C) When most of the people in the market who are interested in the product have already purchased it</label>
+                <label><input type="radio" name="q6_10" value="D"> D) When nobody wants to buy the product</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">11) Which of the following is a step in determining how customers decide to buy a product?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_11" value="A"> A) Analyze the buying process</label>
+                <label><input type="radio" name="q6_11" value="B"> B) Think about who might actually buy it</label>
+                <label><input type="radio" name="q6_11" value="C"> C) Determine the need it meets</label>
+                <label><input type="radio" name="q6_11" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">12) Which business function do experts agree you should focus on first when preparing to start a business?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_12" value="A"> A) Marketing vision</label>
+                <label><input type="radio" name="q6_12" value="B"> B) Operations</label>
+                <label><input type="radio" name="q6_12" value="C"> C) Financing</label>
+                <label><input type="radio" name="q6_12" value="D"> D) Production</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">13) Smart marketers always emphasize ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_13" value="A"> A) Benefits, not prices</label>
+                <label><input type="radio" name="q6_13" value="B"> B) Benefits, not features</label>
+                <label><input type="radio" name="q6_13" value="C"> C) Features, not benefits</label>
+                <label><input type="radio" name="q6_13" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">14) Dividing a population on the basis of age, gender, income, or education is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_14" value="A"> A) Psychographics</label>
+                <label><input type="radio" name="q6_14" value="B"> B) Marketing statistics</label>
+                <label><input type="radio" name="q6_14" value="C"> C) Behavioral data</label>
+                <label><input type="radio" name="q6_14" value="D"> D) Demographics</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">15) Which of the following aspects of a product/service is the most important to focus on when selling?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_15" value="A"> A) Price</label>
+                <label><input type="radio" name="q6_15" value="B"> B) Features</label>
+                <label><input type="radio" name="q6_15" value="C"> C) Benefits</label>
+                <label><input type="radio" name="q6_15" value="D"> D) Friendliness</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">16) Which of the following is NOT a step in the buying process?</p>
+            <div class="options">
+                <label><input type="radio" name="q6_16" value="A"> A) Demographic analysis</label>
+                <label><input type="radio" name="q6_16" value="B"> B) Evaluation of purchase</label>
+                <label><input type="radio" name="q6_16" value="C"> C) Awareness</label>
+                <label><input type="radio" name="q6_16" value="D"> D) Information search</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">17) Consumers who have a similar response to a certain type of marketing can be classified as a ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_17" value="A"> A) Market segment</label>
+                <label><input type="radio" name="q6_17" value="B"> B) Market</label>
+                <label><input type="radio" name="q6_17" value="C"> C) Market section</label>
+                <label><input type="radio" name="q6_17" value="D"> D) Market division</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">18) The positioning statement for a business includes its name/brand, its competitive industry/category, its ______, and its audience/target market.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_18" value="A"> A) Benefits or points of difference</label>
+                <label><input type="radio" name="q6_18" value="B"> B) Features and points of difference</label>
+                <label><input type="radio" name="q6_18" value="C"> C) Features and points of similarity</label>
+                <label><input type="radio" name="q6_18" value="D"> D) Benefits and similarities</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">19) The most important thing you should do before launching your product or service is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_19" value="A"> A) Thoroughly research the market</label>
+                <label><input type="radio" name="q6_19" value="B"> B) Design your logo</label>
+                <label><input type="radio" name="q6_19" value="C"> C) Raise enough capital</label>
+                <label><input type="radio" name="q6_19" value="D"> D) Print business cards</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">20) Positioning your product in the market involves ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_20" value="A"> A) Buying advertising</label>
+                <label><input type="radio" name="q6_20" value="B"> B) Obtaining publicity</label>
+                <label><input type="radio" name="q6_20" value="C"> C) Communicating your competitive advantage to the customer</label>
+                <label><input type="radio" name="q6_20" value="D"> D) Demonstrating the cheapest price</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">21) Research carried out indirectly through other existing resources is called ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_21" value="A"> A) Primary research</label>
+                <label><input type="radio" name="q6_21" value="B"> B) Tributary research</label>
+                <label><input type="radio" name="q6_21" value="C"> C) Ancillary research</label>
+                <label><input type="radio" name="q6_21" value="D"> D) Secondary research</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">22) By teaching customers how to use its products, Home Depot is helping customers see the ______ of its products.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_22" value="A"> A) Structure</label>
+                <label><input type="radio" name="q6_22" value="B"> B) Features</label>
+                <label><input type="radio" name="q6_22" value="C"> C) Ramifications</label>
+                <label><input type="radio" name="q6_22" value="D"> D) Benefits</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">23) Marketing is the satisfying of customer needs ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_23" value="A"> A) At a profit</label>
+                <label><input type="radio" name="q6_23" value="B"> B) At no profit</label>
+                <label><input type="radio" name="q6_23" value="C"> C) Regardless of profit</label>
+                <label><input type="radio" name="q6_23" value="D"> D) At the breakeven point</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">24) Market research is typically ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_24" value="A"> A) Complete a year after product</label>
+                <label><input type="radio" name="q6_24" value="B"> B) Ongoing: You always do market research introduction</label>
+                <label><input type="radio" name="q6_24" value="C"> C) Complete prior to product introduction</label>
+                <label><input type="radio" name="q6_24" value="D"> D) Complete within six months after introduction</label>
+                <label><input type="radio" name="q6_24" value="E"> E) Complete when the product or service is introduced</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">25) Psychographic analysis and behavioral analyses are examples of methods of ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_25" value="A"> A) Market segmentation</label>
+                <label><input type="radio" name="q6_25" value="B"> B) Marketing</label>
+                <label><input type="radio" name="q6_25" value="C"> C) Market research</label>
+                <label><input type="radio" name="q6_25" value="D"> D) Market study</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">26) Marketing is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_26" value="A"> A) Satisfying customers at a profit</label>
+                <label><input type="radio" name="q6_26" value="B"> B) The business function that identifies customer needs</label>
+                <label><input type="radio" name="q6_26" value="C"> C) The business function that identifies customer wants</label>
+                <label><input type="radio" name="q6_26" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">27) Market research can help you get a fix on who your customers are by determining ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q6_27" value="A"> A) What kind of income they earn</label>
+                <label><input type="radio" name="q6_27" value="B"> B) How old they are</label>
+                <label><input type="radio" name="q6_27" value="C"> C) Where they live</label>
+                <label><input type="radio" name="q6_27" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <h2 class="chapter-title">Chapter 7: Developing the Right Marketing Mix and Plan</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1) Which of the following is one of the four Ps of marketing?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_1" value="A"> A) Product</label>
+                <label><input type="radio" name="q7_1" value="B"> B) Population</label>
+                <label><input type="radio" name="q7_1" value="C"> C) Publicity</label>
+                <label><input type="radio" name="q7_1" value="D"> D) Profit</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">2) What is the smartest price strategy?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_2" value="A"> A) Choose a pricing strategy that communicates your competitive advantage.</label>
+                <label><input type="radio" name="q7_2" value="B"> B) Offer the lowest price that you can afford to offer.</label>
+                <label><input type="radio" name="q7_2" value="C"> C) Pick a pricing strategy that is different from the competition's strategy.</label>
+                <label><input type="radio" name="q7_2" value="D"> D) Change the pricing every quarter.</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">3) Which of the following is not an example of successful branding?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_3" value="A"> A) A product represents luxury to customers.</label>
+                <label><input type="radio" name="q7_3" value="B"> B) Customers confuse a business's logo with that of another business.</label>
+                <label><input type="radio" name="q7_3" value="C"> C) Customers associate a product with high ethical standards.</label>
+                <label><input type="radio" name="q7_3" value="D"> D) Customers cannot remember the name of the company.</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">4) Marketing inspired by a commitment to a social, political or environmental issues is called ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_4" value="A"> A) Philanthropy</label>
+                <label><input type="radio" name="q7_4" value="B"> B) Cause-related marketing</label>
+                <label><input type="radio" name="q7_4" value="C"> C) Socially responsible business</label>
+                <label><input type="radio" name="q7_4" value="D"> D) Environmental marketing</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">5) Why are not-for-profit corporations tax exempt?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_5" value="A"> A) Because they donate money to foundations</label>
+                <label><input type="radio" name="q7_5" value="B"> B) Because they use the money they collect to help improve society</label>
+                <label><input type="radio" name="q7_5" value="C"> C) Because they pay a different form of tax than regular corporations</label>
+                <label><input type="radio" name="q7_5" value="D"> D) Because they don't make profits of any kind</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">6) Ford's Edsel is an example of a product that failed because it lacked ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_6" value="A"> A) Focus</label>
+                <label><input type="radio" name="q7_6" value="B"> B) Name recognition</label>
+                <label><input type="radio" name="q7_6" value="C"> C) Competitiveness</label>
+                <label><input type="radio" name="q7_6" value="D"> D) Imagination</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">7) To break even, a business must ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_7" value="A"> A) Sell enough units to cover its fixed costs</label>
+                <label><input type="radio" name="q7_7" value="B"> B) Sell enough units to cover all its costs</label>
+                <label><input type="radio" name="q7_7" value="C"> C) Sell enough units to earn a profit</label>
+                <label><input type="radio" name="q7_7" value="D"> D) Sell enough units to cover its variable costs</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">8) A marketing plan contains all of the following sections except ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_8" value="A"> A) Product/Service</label>
+                <label><input type="radio" name="q7_8" value="B"> B) Promotion Strategy/Plan</label>
+                <label><input type="radio" name="q7_8" value="C"> C) Financial Projections</label>
+                <label><input type="radio" name="q7_8" value="D"> D) Pricing Strategy</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">9) A nonprofit organization that uses donated money to help others is called a…___.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_9" value="A"> A) Tax exempt</label>
+                <label><input type="radio" name="q7_9" value="B"> B) Foundation</label>
+                <label><input type="radio" name="q7_9" value="C"> C) Philanthropy</label>
+                <label><input type="radio" name="q7_9" value="D"> D) Free enterprise</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">10) Expressing concern for social issues by giving money, time, or advice is called_._</p>
+            <div class="options">
+                <label><input type="radio" name="q7_10" value="A"> A) Cause-related marketing</label>
+                <label><input type="radio" name="q7_10" value="B"> B) Foundation</label>
+                <label><input type="radio" name="q7_10" value="C"> C) Philanthropy</label>
+                <label><input type="radio" name="q7_10" value="D"> D) Social enterprise</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">11) Which of the following is a way to use cause-related marketing in your business?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_11" value="A"> A) Advertise that you support a social, political, or environmental cause, without actually giving any money or time to the cause.</label>
+                <label><input type="radio" name="q7_11" value="B"> B) Donate a small percentage of your revenue to a cause, but don't tell anyone.</label>
+                <label><input type="radio" name="q7_11" value="C"> C) Pay employees to volunteer some time toward community service.</label>
+                <label><input type="radio" name="q7_11" value="D"> D) None of the above.</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">12) A ______ is an identifying symbol for a product or a business.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_12" value="A"> A) Brand</label>
+                <label><input type="radio" name="q7_12" value="B"> B) Logo</label>
+                <label><input type="radio" name="q7_12" value="C"> C) Trademark</label>
+                <label><input type="radio" name="q7_12" value="D"> D) Copyright</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">13) According to *Guerilla Marketing Attack* by Jay Levinson, when consumers in the furniture industry rated factors affecting their purchase decision, ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_13" value="A"> A) Price was by far the most important variable</label>
+                <label><input type="radio" name="q7_13" value="B"> B) Price was the ninth most important variable</label>
+                <label><input type="radio" name="q7_13" value="C"> C) Price was not deemed to be a critical or relevant variable in the purchase decision</label>
+                <label><input type="radio" name="q7_13" value="D"> D) Price was the 25th most important variable</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">14) Finding a retail site that has more than ample parking, excellent access and walk-in trade potential is an example of maximizing which of the marketing Ps?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_14" value="A"> A) Place</label>
+                <label><input type="radio" name="q7_14" value="B"> B) Price</label>
+                <label><input type="radio" name="q7_14" value="C"> C) Product</label>
+                <label><input type="radio" name="q7_14" value="D"> D) Promotion</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">15) ______ is free (non-purchased) mention of your business or brand in newspapers, magazines, radio or TV.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_15" value="A"> A) Advertising</label>
+                <label><input type="radio" name="q7_15" value="B"> B) Publicity</label>
+                <label><input type="radio" name="q7_15" value="C"> C) Product marketing</label>
+                <label><input type="radio" name="q7_15" value="D"> D) Promotion</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">16) Bill and Melinda Gates and Warren Buffett have committed millions of dollars to the Bill and Melinda Gates Foundation, making them among the world's greatest ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_16" value="A"> A) Tax payers</label>
+                <label><input type="radio" name="q7_16" value="B"> B) Philanthropists</label>
+                <label><input type="radio" name="q7_16" value="C"> C) Misogynists</label>
+                <label><input type="radio" name="q7_16" value="D"> D) Entrepreneurs</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">17) Any word, name, symbol, or device used by an organization to distinguish its product is a(n) ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_17" value="A"> A) Copyright</label>
+                <label><input type="radio" name="q7_17" value="B"> B) Patent</label>
+                <label><input type="radio" name="q7_17" value="C"> C) Trademark</label>
+                <label><input type="radio" name="q7_17" value="D"> D) None of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">18) What is an intangible asset generated when a company does something positive that has value?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_18" value="A"> A) Publicity</label>
+                <label><input type="radio" name="q7_18" value="B"> B) Goodwill</label>
+                <label><input type="radio" name="q7_18" value="C"> C) Advertising</label>
+                <label><input type="radio" name="q7_18" value="D"> D) Optimism</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">19) What attributes should your business name have?</p>
+            <div class="options">
+                <label><input type="radio" name="q7_19" value="A"> A) Creative and funny</label>
+                <label><input type="radio" name="q7_19" value="B"> B) Distinctive and easy to remember</label>
+                <label><input type="radio" name="q7_19" value="C"> C) Similar to your main competitor and short</label>
+                <label><input type="radio" name="q7_19" value="D"> D) None of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">20) In the 4 "Ps" of marketing, ______ refers to the location where you choose to market your product.</p>
+            <div class="options">
+                <label><input type="radio" name="q7_20" value="A"> A) Price</label>
+                <label><input type="radio" name="q7_20" value="B"> B) Place</label>
+                <label><input type="radio" name="q7_20" value="C"> C) Promotion</label>
+                <label><input type="radio" name="q7_20" value="D"> D) Product</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: B</div>
+        </div>
+        
+        <h2 class="chapter-title">Chapter 8: Pricing and Credit Strategies</h2>
+        
+        <div class="question-block">
+            <p class="question-text">1) Which of the following is not included in the eight steps to better pricing in the text?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_1" value="A"> A) Assess what value your customers place on the product or service.</label>
+                <label><input type="radio" name="q8_1" value="B"> B) Assess customers' price sensitivity.</label>
+                <label><input type="radio" name="q8_1" value="C"> C) Consider competitors' reactions.</label>
+                <label><input type="radio" name="q8_1" value="D"> D) Adjust prices based on the consumer price index.</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">2) Which of the following types of businesses do not typically use a follow-the-leader pricing strategy?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_2" value="A"> A) Wholesale</label>
+                <label><input type="radio" name="q8_2" value="B"> B) Manufacturing</label>
+                <label><input type="radio" name="q8_2" value="C"> C) Retail</label>
+                <label><input type="radio" name="q8_2" value="D"> D) Service</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">3) The ______ price is what remains after all pricing factors, such as discounts and allowances, are deducted from list or invoice to reach final prices.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_3" value="A"> A) Pocket</label>
+                <label><input type="radio" name="q8_3" value="B"> B) Concise</label>
+                <label><input type="radio" name="q8_3" value="C"> C) Abridged</label>
+                <label><input type="radio" name="q8_3" value="D"> D) Portable</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">4) Manufacturers must control ______ to create sustainable profits.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_4" value="A"> A) Raw material costs</label>
+                <label><input type="radio" name="q8_4" value="B"> B) Raw material supplies</label>
+                <label><input type="radio" name="q8_4" value="C"> C) Raw material storage</label>
+                <label><input type="radio" name="q8_4" value="D"> D) Raw material usage</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">5) As you define the marketing strategy for your company, including ______, the range of appropriate pricing strategies emerges.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_5" value="A"> A) Your target market(s)</label>
+                <label><input type="radio" name="q8_5" value="B"> B) Competitive advantages</label>
+                <label><input type="radio" name="q8_5" value="C"> C) Overall marketing mix</label>
+                <label><input type="radio" name="q8_5" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">6) Which of the following is not a typical discounting method for manufacturers?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_6" value="A"> A) Volume discounts</label>
+                <label><input type="radio" name="q8_6" value="B"> B) Credit terms</label>
+                <label><input type="radio" name="q8_6" value="C"> C) Seasonal sales</label>
+                <label><input type="radio" name="q8_6" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: C</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">7) In order to price objectively, the ______ of extending credit must be fully incorporated into the pricing decision.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_7" value="A"> A) Costs</label>
+                <label><input type="radio" name="q8_7" value="B"> B) Benefits</label>
+                <label><input type="radio" name="q8_7" value="C"> C) Rate</label>
+                <label><input type="radio" name="q8_7" value="D"> D) Value</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">8) Which of the following is not a type of credit?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_8" value="A"> A) Credit cards</label>
+                <label><input type="radio" name="q8_8" value="B"> B) Merchant credit cards</label>
+                <label><input type="radio" name="q8_8" value="C"> C) Trade credit</label>
+                <label><input type="radio" name="q8_8" value="D"> D) Good-will credit</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">9) The manufacturer and retailer typically ______ their costs to determine a selling price.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_9" value="A"> A) Double</label>
+                <label><input type="radio" name="q8_9" value="B"> B) Triple</label>
+                <label><input type="radio" name="q8_9" value="C"> C) Quadruple</label>
+                <label><input type="radio" name="q8_9" value="D"> D) All of the above</label>
+                <label><input type="radio" name="q8_9" value="E"> E) None of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">10) Markup pricing is commonly used as a form of ______ pricing.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_10" value="A"> A) Cost plus</label>
+                <label><input type="radio" name="q8_10" value="B"> B) Cost positive</label>
+                <label><input type="radio" name="q8_10" value="C"> C) Cost favorable</label>
+                <label><input type="radio" name="q8_10" value="D"> D) Cost and more</label>
+                <label><input type="radio" name="q8_10" value="E"> E) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">11) An industry that has traditionally used the skimming price strategy is ______.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_11" value="A"> A) Technology</label>
+                <label><input type="radio" name="q8_11" value="B"> B) Clothing</label>
+                <label><input type="radio" name="q8_11" value="C"> C) Grocery stores</label>
+                <label><input type="radio" name="q8_11" value="D"> D) Household cleaners</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">12) Value pricing means finding the balance between ______ and ______ that will give your target customers the value they seek.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_12" value="A"> A) Quality, price</label>
+                <label><input type="radio" name="q8_12" value="B"> B) Quality, quantity</label>
+                <label><input type="radio" name="q8_12" value="C"> C) Quantity, price</label>
+                <label><input type="radio" name="q8_12" value="D"> D) Price, features</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">13) Which of the following is not a factor to consider in pricing strategy for your business?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_13" value="A"> A) Desired profitability</label>
+                <label><input type="radio" name="q8_13" value="B"> B) Market positioning</label>
+                <label><input type="radio" name="q8_13" value="C"> C) Psychology of pricing</label>
+                <label><input type="radio" name="q8_13" value="D"> D) The lowest sale price you can afford</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">14) Wholesalers often operate on ______ profit margins.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_14" value="A"> A) Small</label>
+                <label><input type="radio" name="q8_14" value="B"> B) Medium</label>
+                <label><input type="radio" name="q8_14" value="C"> C) Large</label>
+                <label><input type="radio" name="q8_14" value="D"> D) Enormous</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">15) A service business may use which of the following types of pricing strategies?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_15" value="A"> A) Competition</label>
+                <label><input type="radio" name="q8_15" value="B"> B) Penetration</label>
+                <label><input type="radio" name="q8_15" value="C"> C) Personalized</label>
+                <label><input type="radio" name="q8_15" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">16) Which of the following products is likely to have the most elastic demand?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_16" value="A"> A) Gas</label>
+                <label><input type="radio" name="q8_16" value="B"> B) Milk</label>
+                <label><input type="radio" name="q8_16" value="C"> C) Bread</label>
+                <label><input type="radio" name="q8_16" value="D"> D) Digital cameras</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">17) If prices are too ______, the supply will ______ demand.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_17" value="A"> A) High, exceed</label>
+                <label><input type="radio" name="q8_17" value="B"> B) High, be less than</label>
+                <label><input type="radio" name="q8_17" value="C"> C) Low, exceed</label>
+                <label><input type="radio" name="q8_17" value="D"> D) Low, be more than</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">18) Which of the following is not a dimension of price and quality?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_18" value="A"> A) Penetration Pricing</label>
+                <label><input type="radio" name="q8_18" value="B"> B) Value Pricing</label>
+                <label><input type="radio" name="q8_18" value="C"> C) Prestige Pricing</label>
+                <label><input type="radio" name="q8_18" value="D"> D) Feasibility Pricing</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: D</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">19) It is common for ______ businesses to use a meet-or-beat-the-competition pricing strategy, which entails constantly matching or undercutting the pricing of your competition.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_19" value="A"> A) Service</label>
+                <label><input type="radio" name="q8_19" value="B"> B) Manufacturing</label>
+                <label><input type="radio" name="q8_19" value="C"> C) Distribution</label>
+                <label><input type="radio" name="q8_19" value="D"> D) All of the above</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">20) A penetration pricing strategy uses a ______ price during the early stages of a product's life cycle to gain market share.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_20" value="A"> A) Low</label>
+                <label><input type="radio" name="q8_20" value="B"> B) High</label>
+                <label><input type="radio" name="q8_20" value="C"> C) Competitive</label>
+                <label><input type="radio" name="q8_20" value="D"> D) Mid-range</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">21) If prices are too low, there may be ______ of products.</p>
+            <div class="options">
+                <label><input type="radio" name="q8_21" value="A"> A) Shortages</label>
+                <label><input type="radio" name="q8_21" value="B"> B) Surplus</label>
+                <label><input type="radio" name="q8_21" value="C"> C) Excess</label>
+                <label><input type="radio" name="q8_21" value="D"> D) Less demand</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+        
+        <div class="question-block">
+            <p class="question-text">22) The primary cost of production in a service business is which of the following?</p>
+            <div class="options">
+                <label><input type="radio" name="q8_22" value="A"> A) Labor</label>
+                <label><input type="radio" name="q8_22" value="B"> B) Land</label>
+                <label><input type="radio" name="q8_22" value="C"> C) Building</label>
+                <label><input type="radio" name="q8_22" value="D"> D) Capital goods</label>
+            </div>
+            <button class="show-answer-btn" onclick="showAnswer(this)">Show Answer</button>
+            <div class="answer">Answer: A</div>
+        </div>
+    </div>
+
+    <script>
+        function showAnswer(btn) {
+            var answerDiv = btn.nextElementSibling;
+            if (answerDiv.style.display === 'none' || answerDiv.style.display === '') {
+                answerDiv.style.display = 'block';
+                btn.textContent = 'Hide Answer';
+            } else {
+                answerDiv.style.display = 'none';
+                btn.textContent = 'Show Answer';
+            }
+        }
+    </script>
+</body>
+</html>
